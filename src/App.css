@@ -83,7 +83,7 @@ body {
   margin-top: 20px;
 }
 
-.botao-link {
+.botao-link, card-professor button {
   background-color: #68b92e;
   color: #ffffff;
   text-decoration: none;
@@ -120,7 +120,7 @@ body {
 
 /* Formulário */
 
-.formulario-aluno {
+.formulario-aluno, .formulario-professor {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -156,7 +156,7 @@ body {
   box-shadow: 0 0 0 2px rgba(104, 185, 46, 0.3);
 }
 
-.formulario-aluno button {
+.formulario-aluno button, .formulario-professor button {
   align-self: flex-start;
   background-color: #68b92e;
   color: #ffffff;
@@ -168,7 +168,7 @@ body {
   cursor: pointer;
 }
 
-.formulario-aluno button:hover {
+.formulario-aluno button:hover, card-professor button:hover {
   background-color: #2e7d32;
 }
 
@@ -198,7 +198,7 @@ body {
   font-size: 0.9rem;
 }
 
-.card-aluno button {
+.card-aluno button, card-professor button {
   margin-top: 12px;
   background-color: #ffffff;
   color: #c62828;
@@ -213,3 +213,45 @@ body {
   background-color: #c62828;
   color: #ffffff;
 }
+
+.lista-professores {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.card-professor {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left: 4px solid #2e7d32;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-professor h3 {
+  margin: 0 0 8px;
+  color: #2e7d32;
+}
+
+.card-professor p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}
+
+.card-professor button {
+  margin-top: 12px;
+  background-color: #ffffff;
+  color: #c62828;
+  border: 1px solid #c62828;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.card-professor button:hover {
+  background-color: #c62828;
+  color: #ffffff;
+}
+
+

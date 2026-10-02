@@ -7,17 +7,32 @@
       "cpf": "123.456.789-00",
       "data_nascimento": "2007-05-14",
       "endereco": "Rua das Flores, 123 - Pau dos Ferros/RN"
+    },
+    {
+      "nome": "CAUÃ LAURENTINO GOMES",
+      "email": "caua.l@escolar.ifrn.edu.br",
+      "cpf": "123.456.789.00",
+      "data_nascimento": "2008-10-01",
+      "endereco": "Luis Gomes",
+      "id": 2
     }
   ],
-
-  "professores":[
+  "professores": [
     {
-      "id": 1, 
+      "id": 1,
       "nome": "Jeferson Queiroga",
       "email": "jefersonqueiroga@gmail.com",
       "cpf": "444.542.400-51",
       "disciplina": "Programação para Internet",
       "data_adimicao": "2022-03-01"
+    },
+    {
+      "nome": "Demetrios Coutinho",
+      "email": "demetrioscoutinho@gmail.com",
+      "cpf": "959.021.800-82",
+      "disciplina": "Introdução a Programação",
+      "data_adimicao": "2026-10-02",
+      "id": 2
     }
   ]
 }

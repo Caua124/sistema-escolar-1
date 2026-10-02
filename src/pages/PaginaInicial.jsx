@@ -8,6 +8,8 @@ function PaginaInicial() {
       <div className="acoes-inicial">
         <Link to="/alunos" className="botao-link">Ver alunos</Link>
         <Link to="/cadastro" className="botao-link">Cadastrar aluno</Link>
+        <Link to="/professores" className="botao-link">Ver professores</Link>
+        <Link to="/cadastro-professores" className="botao-link">Cadastrar professor</Link>
       </div>
     </div>
   );

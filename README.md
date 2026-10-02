@@ -46,4 +46,6 @@ Depois, abra no navegador o endereço mostrado no terminal (geralmente `http://l
 
 ## Screenshot
 
-_Adicione aqui uma captura de tela do projeto em funcionamento._
+<img src="./public/imagem1.png" alt="Tela da aplicação">
+<img src="./public/imagem2.png" alt="Tela da aplicação">
+<img src="./public/imagem3.png" alt="Tela da aplicação">
