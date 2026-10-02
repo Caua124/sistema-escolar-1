@@ -8,5 +8,16 @@
       "data_nascimento": "2007-05-14",
       "endereco": "Rua das Flores, 123 - Pau dos Ferros/RN"
     }
+  ],
+
+  "professores":[
+    {
+      "id": 1, 
+      "nome": "Jeferson Queiroga",
+      "email": "jefersonqueiroga@gmail.com",
+      "cpf": "444.542.400-51",
+      "disciplina": "Programação para Internet",
+      "data_adimicao": "2022-03-01"
+    }
   ]
 }
